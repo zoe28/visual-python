@@ -1,2 +1,4 @@
 name = 'Kiko Kyeresd'
-print(name)
+greeting = 'Welcom to my home, '
+message = greeting + name
+print(message)
