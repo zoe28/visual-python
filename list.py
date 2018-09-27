@@ -6,5 +6,5 @@ planets_player_2 = 'Pablo'
 planets_player_3 = 'Polly'
 rockets_playes = ['Rory', 'Rav', 'Rachel', 'Renata', 'Ryan', 'Ruby']
 planets_players = ['Peter', 'Pablo', 'Polly', 'Penny', 'Paula', 'Patrick']
-print(rockets_playes[0])
-print(planets_players[4])
+print(rockets_playes[0], rockets_playes[5])
+print(planets_players[4], planets_players[0])
