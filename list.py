@@ -8,3 +8,6 @@ rockets_playes = ['Rory', 'Rav', 'Rachel', 'Renata', 'Ryan', 'Ruby']
 planets_players = ['Peter', 'Pablo', 'Polly', 'Penny', 'Paula', 'Patrick']
 print(rockets_playes[0], rockets_playes[5])
 print(planets_players[4], planets_players[0])
+
+answer_one = True
+answer_two = False
