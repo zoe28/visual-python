@@ -15,3 +15,5 @@ answer_two = False
 age = 10
 if age == 10:
   print('Your age are ten years old.')
+if age == 14:
+  print('Your age are 14 years old.')
