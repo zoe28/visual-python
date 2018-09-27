@@ -11,3 +11,7 @@ print(planets_players[4], planets_players[0])
 
 answer_one = True
 answer_two = False
+
+age = 10
+if age == 10:
+  print('Your age are ten years old.')
