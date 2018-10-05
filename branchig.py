@@ -16,3 +16,4 @@ elif weather == 'snow':
   print('Remember your wooly gloves!')
 else:
   print('Remember your sunglasses!')
+  
