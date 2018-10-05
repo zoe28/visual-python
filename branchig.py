@@ -7,3 +7,5 @@ if tentacles -- 'y':
   print('I never knew octopuses could type!')
 else:
       print('Greetingd, human!')  
+
+weather = input ('What is the forecast for today? (rain/snow/sun)')
