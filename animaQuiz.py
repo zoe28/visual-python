@@ -1,6 +1,7 @@
 def check_guess(guess, answer):
   global score
   if guess.lower() == answer.lower():
+  #if guess.upper() == answer.upper():
     print('Correct answer')
     score = score + 1
 score = 0
