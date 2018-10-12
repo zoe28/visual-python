@@ -12,6 +12,9 @@ def check_guess(guess, answer):
       if attempt < 2:
         guess = input('Sorry wrong answer. Try again. ')
       attempt = attempt + 1  
+  if attempt == 3:
+    print('The correct answer is ' + answer)
+    
 score = 0
 print('Guess the Animal!')
 guess1 = input('Which bear lives at the North Pole? ')
