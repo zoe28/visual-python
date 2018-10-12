@@ -9,7 +9,9 @@ def check_guess(guess, answer):
       score = score + 1
       still_guessing = False
     else:
-        
+      if attempt < 2:
+        guess = input('Sorry wrong answer. Try again. ')
+      attempt = attempt + 1  
 score = 0
 print('Guess the Animal!')
 guess1 = input('Which bear lives at the North Pole? ')
