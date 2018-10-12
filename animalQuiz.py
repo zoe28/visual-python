@@ -5,8 +5,11 @@ def check_guess(guess, answer):
   while still_guessing and attempt < 3:
     if guess.lower() == answer.lower():
     #if guess.upper() == answer.upper():
-    print('Correct answer')
-    score = score + 1
+      print('Correct answer')
+      score = score + 1
+      still_guessing = False
+    else:
+        
 score = 0
 print('Guess the Animal!')
 guess1 = input('Which bear lives at the North Pole? ')
