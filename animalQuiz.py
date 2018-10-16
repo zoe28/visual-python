@@ -12,9 +12,10 @@ def check_guess(guess, answer):
       if attempt < 2:
         guess = input('Sorry wrong answer. Try again. ')
       attempt = attempt + 1  
+
   if attempt == 3:
     print('The correct answer is ' + answer)
-    
+
 score = 0
 print('Guess the Animal!')
 guess1 = input('Which bear lives at the North Pole? ')
@@ -23,5 +24,7 @@ guess2 = input('Which is the fastest land animal? ')
 check_guess(guess2, "cheetah")
 guess3 = input('Which is the largest animal? ')
 check_guess(guess3, 'blue whale')
+guess = input('Which one of these is a fish? \ A) Whale B)Dolphin C)Shark D)Squid. Type A, B, C, or D')
+check_guess(guess, 'C')
 
 print('Your score is ' + str(score))
