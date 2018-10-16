@@ -24,7 +24,7 @@ guess2 = input('Which is the fastest land animal? ')
 check_guess(guess2, "cheetah")
 guess3 = input('Which is the largest animal? ')
 check_guess(guess3, 'blue whale')
-guess = input('Which one of these is a fish? \ A) Whale B)Dolphin C)Shark D)Squid. Type A, B, C, or D')
+guess = input('Which one of these is a fish? \n A) Whale B)Dolphin C)Shark D)Squid. Type A, B, C, or D')
 check_guess(guess, 'C')
 
 print('Your score is ' + str(score))
