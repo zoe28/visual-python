@@ -26,5 +26,7 @@ guess3 = input('Which is the largest animal? ')
 check_guess(guess3, 'blue whale')
 guess = input('Which one of these is a fish? \n A) Whale\n B)Dolphin\n C)Shark\n D)Squid\n Type A, B, C, or D')
 check_guess(guess, 'C')
+guess4 = input('Mice are mammals, True or False ')
+check_guess(guess4, 'True')
 
 print('Your score is ' + str(score))
