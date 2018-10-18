@@ -19,3 +19,7 @@ def convert_days_to_seconds(days):
   minutes = hours * 60 
   seconds = minutes * 60
   return seconds
+
+total_second = convert_days_to_seconds(7)
+milliseconds = total_second * 1000
+print(milliseconds)
