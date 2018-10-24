@@ -13,3 +13,5 @@ special_char = random.choice(string.punctuation)
 
 password = adjectives + nouns + str(number) + special_char
 print('Your new password is: ')
+
+print('route' + str(66))
