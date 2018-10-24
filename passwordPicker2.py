@@ -14,3 +14,7 @@ while True:
 
   password = adjectives + nouns + str(number) + special_char
   print('Your new password is : %s' % password)
+   
+  response = input('Would you like your another password? Type y or n: ')
+  if response == 'n':
+    break
