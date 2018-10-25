@@ -9,6 +9,7 @@ print('Welcome to Password Picker!')
 adjectives = random.choice(adjectives)
 nouns = random.choice(nouns)
 number = random.randrange(0, 100)
+print(repr(string))
 special_char = random.choice(string.punctuation)
 
 password = adjectives + nouns + str(number) + special_char
