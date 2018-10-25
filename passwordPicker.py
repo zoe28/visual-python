@@ -13,6 +13,7 @@ print(repr(string))
 special_char = random.choice(string.punctuation)
 
 password = adjectives + nouns + str(number) + special_char
-print('Your new password is: %s' % password)
+#print('Your new password is: %s' % password)
+print('Your new password is: {}'.format(password))
 
 # print('route' + str(66))
