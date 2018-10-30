@@ -7,3 +7,5 @@ clue = list('??????') # store the clue
 heart_symbol = u'\u2764' # show the lives left
 guessed_word_correctly = False 
 # The variable is set as False to begin with because the player doesn't know the word when the game starts
+
+def update_clue(guessed_letter, secret_word, clue):
