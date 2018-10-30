@@ -9,3 +9,8 @@ guessed_word_correctly = False
 # The variable is set as False to begin with because the player doesn't know the word when the game starts
 
 def update_clue(guessed_letter, secret_word, clue):
+  index = 0
+  while index < len(secret_word):
+    if guessed_letter == secret_word[index]:
+      clue[index] = guessed_letter
+    index = index + 1
