@@ -11,6 +11,12 @@ guessed_word_correctly = False
 def update_clue(guessed_letter, secret_word, clue):
   index = 0
   while index < len(secret_word):
+
     if guessed_letter == secret_word[index]:
       clue[index] = guessed_letter
     index = index + 1
+
+while lives > 0:
+  print(clue)
+  print('Lives left: ' + heart_symbol * lives)
+  
