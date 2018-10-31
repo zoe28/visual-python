@@ -24,4 +24,7 @@ while lives > 0:
   if guess == secret_word:
     guessed_word_correctly = True
     break
+
+  if guess in secret_word:
+    update_clue(guess, secret_word, clue)
     
