@@ -27,4 +27,6 @@ while lives > 0:
 
   if guess in secret_word:
     update_clue(guess, secret_word, clue)
-    
+  else:
+    print('Incorrect. You lose a life')
+    lives = lives - 1
