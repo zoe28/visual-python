@@ -1,7 +1,7 @@
 import random
 
 lives = 9
-words = ['pizza', 'family', 'teeth', 'otter', 'train', 'plane', 'earth']
+words = ['pizza', 'family', 'teeth', 'otter', 'train', 'plane', 'earth', 'light', 'brush']
 secret_word = random.choice(words)
 clue = list('??????') # store the clue
 heart_symbol = u'\u2764' # show the lives left
