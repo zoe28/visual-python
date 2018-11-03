@@ -17,6 +17,7 @@ def update_clue(guessed_letter, secret_word, clue):
     index = index + 1
 
 difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n 3 Hard\n')
+difficulty = int(difficulty)
 
 while lives > 0:
   print(clue)
