@@ -26,6 +26,8 @@ elif difficulty == 2:
 else:
   lives = 6
 
+clue = []
+
 while lives > 0:
   print(clue)
   print('Lives left: ' + heart_symbol * lives)
