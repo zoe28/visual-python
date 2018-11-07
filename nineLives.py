@@ -26,6 +26,8 @@ elif difficulty == 2:
 else:
   lives = 6
 
+clue = []
+index = []
 
 while lives > 0:
   print(clue)
