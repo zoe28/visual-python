@@ -30,8 +30,8 @@ clue = []
 index = []
 while index < len(secret_word)
   clue.append('?')
+  index = index + 1
 
-  
 while lives > 0:
   print(clue)
   print('Lives left: ' + heart_symbol * lives)
