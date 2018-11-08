@@ -8,13 +8,16 @@ heart_symbol = u'\u2764' # show the lives left
 guessed_word_correctly = False 
 # The variable is set as False to begin with because the player doesn't know the word when the game starts
 
-def update_clue(guessed_letter, secret_word, clue):
+def update_clue(guessed_letter, secret_word, clue, unknown_letters):
   index = 0
   while index < len(secret_word):
 
     if guessed_letter == secret_word[index]:
       clue[index] = guessed_letter
+      unknown_letters = unknown_letters - 1
     index = index + 1
+
+  return unknown_letters
 
 difficulty = input('Choose difficulty (type 1, 2 or 3):\n 1 Easy\n 2 Normal\n 3 Hard\n')
 difficulty = int(difficulty)
