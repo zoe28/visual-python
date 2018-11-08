@@ -50,7 +50,11 @@ while lives > 0:
     print('Incorrect. You lose a life')
     lives = lives - 1
 
-if guessed_word_correctly:
-  print('You won! The secret word was ' + secret_word)
-else:
-  print('You lost! The secret word was ' + secret_word)
+  if unknown_letters == 0:
+    guessed_word_correctly = True
+    break
+
+#if guessed_word_correctly:
+  #print('You won! The secret word was ' + secret_word)
+#else:
+  #print('You lost! The secret word was ' + secret_word)
