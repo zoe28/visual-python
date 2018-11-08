@@ -31,7 +31,7 @@ else:
 
 clue = []
 index = []
-while index < len(secret_word)
+while index < len(secret_word):
   clue.append('?')
   index = index + 1
 
