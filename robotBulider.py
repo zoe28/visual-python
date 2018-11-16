@@ -29,5 +29,5 @@ def rectangle(horizontal, vertical, color):
   rectangle(-15, 100, 'grey')
 
   #body
-  
+  t.goto(-90, 100)
 
