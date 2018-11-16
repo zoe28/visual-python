@@ -27,3 +27,7 @@ def rectangle(horizontal, vertical, color):
   #right legs
   t.goto(-55, -50)
   rectangle(-15, 100, 'grey')
+
+  #body
+  
+
