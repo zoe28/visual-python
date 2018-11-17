@@ -32,3 +32,7 @@ def rectangle(horizontal, vertical, color):
   t.goto(-90, 100)
   rectangle(100, 150, 'red')
 
+#arms
+t.goto(-150, 70)
+rectangle(60, 15, 'grey')
+
