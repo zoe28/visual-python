@@ -30,4 +30,5 @@ def rectangle(horizontal, vertical, color):
 
   #body
   t.goto(-90, 100)
+  rectangle(100, 150, 'red')
 
