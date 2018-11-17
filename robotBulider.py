@@ -35,4 +35,5 @@ def rectangle(horizontal, vertical, color):
 #arms
 t.goto(-150, 70)
 rectangle(60, 15, 'grey')
-
+t.goto(-150, 110)
+rectangle(15, 40, 'grey')
