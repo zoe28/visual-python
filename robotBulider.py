@@ -47,5 +47,7 @@ rectangle(15, 40, 'grey')
 t.goto(-50, 120)
 rectangle(14, 20, 'grey')
 
-
+#head
+t.goto(-85, 170)
+rectangle(80, 50, 'red')
 
