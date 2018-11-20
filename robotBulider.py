@@ -37,3 +37,8 @@ t.goto(-150, 70)
 rectangle(60, 15, 'grey')
 t.goto(-150, 110)
 rectangle(15, 40, 'grey')
+
+t.goto(10, 70)
+rectangle(60, 15,'grey')
+t.goto(55, 110)
+rectangle(15, 40, 'grey')
