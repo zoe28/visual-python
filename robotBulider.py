@@ -54,4 +54,8 @@ rectangle(80, 50, 'red')
 #eyes
 t.goto(-60, 160)
 rectangle(30, 10, 'white')
+t.goto(-55, 155)
+rectangle(5, 5, 'black')
+t.goto(-40, 155)
+rectangle(5, 5, 'black')
 
