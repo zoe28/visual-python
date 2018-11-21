@@ -59,3 +59,5 @@ rectangle(5, 5, 'black')
 t.goto(-40, 155)
 rectangle(5, 5, 'black')
 
+#mouth
+
