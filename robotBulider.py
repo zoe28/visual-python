@@ -1,5 +1,7 @@
 import turtle as t
 
+screen = t.Screen()
+
 def rectangle(horizontal, vertical, color):
   t.pendown()
   t.pensize(1)
@@ -12,25 +14,28 @@ def rectangle(horizontal, vertical, color):
     t.right(90)
   t.end_fill()
   t.penup()
-  t.speed('slow')
-  t.bgcolor('Dodger blue')
 
-  #feet
-  t.goto(-100, -150)
-  rectangle(50, 20, 'blue')
-  t.goto(-30, -150)
-  rectangle(50, 20, 'blue')
+t.penup()
+t.speed('fast')
+t.bgcolor('Dodger blue')
 
-  #legs
-  t.goto(-25, -50)
-  rectangle(15, 100, 'grey')
-  #right legs
-  t.goto(-55, -50)
-  rectangle(-15, 100, 'grey')
+#feet
+t.goto(-100, -150)
+rectangle(50, 20, 'blue')
+t.goto(-30, -150)
+rectangle(50, 20, 'blue')
 
-  #body
-  t.goto(-90, 100)
-  rectangle(100, 150, 'red')
+#legs
+t.goto(-25, -50)
+rectangle(15, 100, 'grey')
+
+#right legs
+t.goto(-55, -50)
+rectangle(-15, 100, 'grey')
+
+#body
+t.goto(-90, 100)
+rectangle(100, 150, 'red')
 
 #arms
 t.goto(-150, 70)
@@ -42,6 +47,16 @@ t.goto(10, 70)
 rectangle(60, 15,'grey')
 t.goto(55, 110)
 rectangle(15, 40, 'grey')
+
+#hands
+t.goto(-155, 130)
+rectangle(25, 25, 'green')
+t.goto(-147, 130)
+rectangle(10, 15, t.bgcolor())
+t.goto(50, 130)
+rectangle(25, 25, 'green')
+t.goto(58, 130)
+rectangle(10, 15, t.bgcolor())
 
 #neck
 t.goto(-50, 120)
@@ -63,3 +78,6 @@ rectangle(5, 5, 'black')
 t.goto(-65, 135)
 rectangle(40, 5, 'black')
 
+t.hideturtle
+
+t.getscreen()._root.mainloop()  # <-- run the Tkinter main loop
