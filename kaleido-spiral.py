@@ -3,7 +3,7 @@ import turtle
 
 def draw_circle(size):
     turtle.pencolor('red')
-    turtle.
+    turtle.circle(size)
 
 turtle.bgcolor('black')
 turtle.speed('fast')
